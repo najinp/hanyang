@@ -8,9 +8,15 @@ const App = () => {
   return (
     <Wrapper>
       <Header />
-      <main>
-        <MainVisual />
-      </main>
+      <Routes>
+        <Route path='/' />
+        <Route path='/sub01' />
+        <Route path='/sub02' />
+        <Route path='/sub03' />
+        <Route path='/sub04' />
+        <Route path='/board' />
+      </Routes>
+      <Footer content={COMPANY} />
     </Wrapper>
   )
 }
