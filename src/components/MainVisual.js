@@ -3,6 +3,8 @@ import "slick-carousel/slick/slick.css";
 import Slider from "react-slick";
 import Menu from './Menu';
 
+
+
 const MainVisual = () => {
     return (
         <section className='MainVisual'>

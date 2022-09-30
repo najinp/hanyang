@@ -31,13 +31,19 @@ const Menu = () => {
     return (
         <section className='Menu'>
             <div className="inner">
-                {
+
+                <h2>주요메뉴</h2>
+
+                <div className='baro'>    {
                     BARO.map(yo => {
                         return (
                             <div>{yo.icon}{yo.menu}</div>
                         )
                     })
-                }
+                }</div>
+
+
+
             </div>
         </section>
     )
